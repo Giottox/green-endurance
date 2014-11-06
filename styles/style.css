@@ -210,34 +210,12 @@ li {
   font-size: 16px;
 }
 
-.footer-image {
-    display:block;
-    width:40px;
-    height:40px;
-    line-height:35px;
-    border: 2px solid #f5f5f5;
-    border-radius: 50%;
-    color:#6383a8;;
-    text-align:center;
-    text-decoration:none;
-    background: #f5f5f5;
-    box-shadow: 0 0 3px gray;
-    font-size:20px;
-    font-weight:bold;
-    float: right;
-  
-}
-.footer-image:hover {
-    background: #6383a8;
-    color: #f5f5f5;
+.icon-vk {
+  font-size: 40px;
+  color: #f8f8f8;
+  float: right;
 }
 
-.footer-image a {
-  text-decoration: none;
-  color: #6383a8;
-}
-
-.footer-image a:hover {
-  text-decoration: none;
-  color: #f5f5f5;
+.icon-vk:hover {
+  color: #45688e;
 }
