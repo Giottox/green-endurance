@@ -1,0 +1,58 @@
+.form-group {
+}
+
+.form-group:before,
+.form-group:after {
+  display: table;
+  content: " ";
+}
+
+.form-group:after {
+  clear: both;
+}
+
+.form-email {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: block;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.form-email:active,
+.form-email:focus {
+  border-color: #35C094;
+  outline: 0;
+}
+
+.email-group {
+  margin-bottom: 100px;
+}
+
+.input-login {
+  text-align: center;
+  margin: 8px;
+  width: 230px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  background: none;
+}
+
+.input-signup {
+  border-radius: 5px;
+  border: 1px solid ;
+  color: #fff;
+  background-color: #35C094;
+  border: 1px solid #35C094;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 5px 0;
+}
+
+.input-signup:hover {
+  border-color: 1px solid #fff;
+  color: #35C094;
+  background-color: transparent;
+  transition: all .3s;
+}

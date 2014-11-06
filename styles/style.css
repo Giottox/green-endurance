@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 30px;
+
+}
+
+/* Галочки в 3-ей секции. */
+li {
+  padding: 10px 0;
+}
+
+@media (min-width: 480px) {
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+  }
+}
+
+
+.fa-check {
+  padding: 10px 0;
+}
+
+/* First section */
+.section-hello { 
+  padding-top: 100px;
+  background-color: #35C094;
+  color: #fff;
+}
+
+@media (min-width: 991px) {
+  .section-hello {
+    padding-bottom: 0;
+  }
+}
+
+.hello-background {
+  background-image: url(../images/backgrounds/devices.png);
+  background-repeat: no-repeat;
+  width: 468px;
+  height: 430px;
+}
+
+.hello-logo {
+  margin-bottom: 115px;
+}
+
+
+.hello-text {
+  margin: 40px 0;
+}
+
+/*  Icons font-awesome */
+
+.fa {
+  margin-right: 5px;
+}
+
+.fa-li-color {
+  color: #35C094;
+}
+
+.fa-ul {
+  margin-top: 10px;
+}
+
+
+/* Section Two  */
+
+.section-features {
+  padding: 90px 0;
+}
+
+.feature-block {}
+
+.features-block .features-image:hover {
+  background-color: #35C094;
+  color: #fff;
+  transition: all .3s;
+}
+
+.features-block:hover .features-heading {
+  color: #35C094;
+  transition: all .3s;
+}
+
+.features-image {
+  padding: 50px;
+  font-size: 55px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #e8e8e8;
+  margin-bottom: 20px;
+}
+
+/* Section Three  */
+
+.section-awesome {
+  background-image: url(../images/backgrounds/pattern-gray.png);
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.awesome-background {
+  background-image: url(../images/backgrounds/web-site-example.png);
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 360px;
+  position: absolute;
+  top: 30%;
+}
+
+.section-reviews {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+}
+
+.section-header {
+ color: #35C094;
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.quote-icon {
+  font-size: 30px;
+
+  color: #35C094;
+}
+
+.nikita-enduraev {
+  color: #35C094;
+}
+
+.section-email {
+  background-color: #35C094;
+}
+
+.video-gopro {
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+
+.video-h3-color {
+  margin-top: 20px;
+}
+
+.section-blocks {
+  text-align: center;
+  padding: 20px 100px;
+  background: #f6f6f6;
+}
+
+.section-blocks-price {
+  text-align: center;
+  padding: 23px 100px;
+  background: #35C094;
+}
+
+.price-div {
+  border: 1px solid #f6f6f6;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.price-ul {
+  text-align: center;
+  margin-right: 40px;
+  
+}
+
+.price-ul li {
+  margin: 15px 0;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.section-brands {
+  background-color: #f8f8f8;
+  
+}
+
+.brand-icons svg {
+  width: 2em;
+  height: 2em;
+
+}
+.brand-icons {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: #373737;
+  padding: 20px;
+}
+
+.footer-p {
+  color: #f8f8f8;
+  font-size: 15px;
+}
+
+.footer-p a {
+  text-decoration: none;
+  color: #f8f8f8;
+  font-size: 16px;
+}
+
+.footer-image {
+    display:block;
+    width:40px;
+    height:40px;
+    line-height:35px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#6383a8;;
+    text-align:center;
+    text-decoration:none;
+    background: #f5f5f5;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+    float: right;
+  
+}
+.footer-image:hover {
+    background: #6383a8;
+    color: #f5f5f5;
+}
+
+.footer-image a {
+  text-decoration: none;
+  color: #6383a8;
+}
+
+.footer-image a:hover {
+  text-decoration: none;
+  color: #f5f5f5;
+}

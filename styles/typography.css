@@ -1,0 +1,113 @@
+h1,h2,h3,h4 {
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+
+.section-heading {
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-primary {
+  color: #35C094;
+  margin-bottom: 100px;
+}
+
+.text-muted {
+  color: #777;
+}
+
+.text-muted-white {
+  color: #fff;
+}
+
+.awesome-text-h {
+  margin-top: 100px;
+  color: #35C094;
+}
+
+.awesome-text-p {
+  margin-top: 50px;
+}
+
+.section-header {
+  margin-top: 70px;
+}
+
+.video-header {
+  padding-top: 80px;
+  color: #35C094;
+}
+
+.video-h3-color {
+  color: #35C094;
+}
+
+.email-h {
+  font-size: 35px;
+  font-family: "PT Sans", sans-serif;
+  margin-top: 65px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.video-p {
+  margin-bottom: 40px;
+}
+
+.price-h1 {
+  margin: 80px 0;
+  color: #35C094;
+  font-family: "PT Sans", sans-serif;
+}
+
+.block-h2, .price-h2 {
+  margin-bottom: 15px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.block-h2-price {
+  font-size: 40px;
+  font-family: "PT Sans", sans-serif;
+  color: #35C094;
+}
+
+.section-blocks p {
+  font-family: "PT Sans", sans-serif;
+}
+
+.block-h2-price-premium, .premium-color, .price-h2{
+  color: #fff;
+}
+
+.block-h2-price-premium {
+  font-size: 40px;
+}
+
+
+.after-h1 {
+  color: #35C094;
+  margin: 30px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.price-p {
+  margin: 20px;
+  font-family: "PT Sans", sans-serif;
+}
