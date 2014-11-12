@@ -11,48 +11,114 @@
   clear: both;
 }
 
-.form-email {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  display: block;
-  width: 45%;
-  margin: 0 auto;
+.form-group {
+  margin-bottom: 40px;
 }
 
-.form-email:active,
-.form-email:focus {
-  border-color: #35C094;
+.form-control {
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid #35C097;
+  background-color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.form-control:active,
+.form-control:focus {
+  border-color: #35C097;
   outline: 0;
+  box-shadow: 0 0 10px #35C097;
 }
 
-.email-group {
-  margin-bottom: 100px;
+
+/* Email */
+
+.section-subscribe {
+  padding-bottom: 20px;
+  background-color: rgb(248, 248, 248);
 }
 
-.input-login {
-  text-align: center;
-  margin: 8px;
-  width: 230px;
-  height: 50px;
-  border: 1px solid #cccccc;
-  background: none;
-}
-
-.input-signup {
-  border-radius: 5px;
-  border: 1px solid ;
-  color: #fff;
-  background-color: #35C094;
-  border: 1px solid #35C094;
-  border-radius: 5px;
-  padding: 10px 30px;
-  margin: 5px 0;
-}
-
-.input-signup:hover {
-  border-color: 1px solid #fff;
+.subscribe-headline {
   color: #35C094;
-  background-color: transparent;
-  transition: all .3s;
+  padding: 20px 20px;
 }
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-group-addon {
+  font-weight: 300;
+  font-size: 20px;
+  font-size: 16px;
+  background-color: #1cbd87;
+  border: 1px solid #1cbd87;
+  color: #1cbd87;
+  padding: 0px 0px;
+  white-space: pre;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.subscribe-btn {
+   padding: 0px 0px;
+   vertical-align: middle;
+   border-radius: 5px;
+}
+
+.btnf {
+  font-size: 18px;
+  font-weight: 200;
+  border: 1px solid #1cbd87;
+  background: #1cbd87;
+  color: #fff;
+  padding: 10px 25px;
+  transition: all .2s;
+}
+
+.btnf:hover {
+  color: #111;
+  transition: all .2s;
+}
+
+.input-group-addon, .input-group-btn {
+  width: 11%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group-addon, .input-group-btn, .input-group .form-control {
+  display: table-cell;
+}
+
+@media (min-width: 992px) {
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+@media (min-width: 992px) {
+  .col-md-8 {
+    width: 66.66666667%;
+}
+
+

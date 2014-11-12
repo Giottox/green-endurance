@@ -63,13 +63,18 @@ li {
 }
 
 .fa-li-color {
+ font-family: "PT Sans", sans-serif;
+ outline-width: 1000;
+}
+
+.fa-li {
   color: #35C094;
 }
 
 .fa-ul {
   margin-top: 10px;
+  cursor: default;
 }
-
 
 /* Section Two  */
 
@@ -211,7 +216,7 @@ li {
 }
 
 .icon-vk {
-  font-size: 40px;
+  font-size: 35px;
   color: #f8f8f8;
   float: right;
 }
@@ -219,3 +224,50 @@ li {
 .icon-vk:hover {
   color: #45688e;
 }
+
+
+/* New Email Section 
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  
+}
+
+.input-group, .form-control {
+  position: relative;
+  
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.input-group-addon {
+  font-weight: 300;
+  font-size: 20px;
+  font-size: 16px;
+  background-color: #1cbd87;
+  border: 1px solid #1cbd87;
+  color: #fff;
+  padding: 0px 0px;
+  white-space: pre;
+}
+
+.fa {
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 992px) {
+.col-md-offset-2 {
+margin-left: 16.66666667%;
+}
+}
+*/
