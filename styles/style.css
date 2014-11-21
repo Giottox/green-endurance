@@ -32,6 +32,7 @@ li {
   padding-top: 100px;
   background-color: #35C094;
   color: #fff;
+  cursor: default;
 }
 
 @media (min-width: 991px) {
@@ -75,6 +76,7 @@ li {
 
 .section-features {
   padding: 90px 0;
+  cursor: default;
 }
 
 .feature-block {}
@@ -106,6 +108,7 @@ li {
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
+  cursor: default;
 }
 
 .awesome-background {
@@ -120,12 +123,14 @@ li {
 .section-reviews {
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
+  cursor: default;
 }
 
 .section-header {
  color: #35C094;
  padding-top: 50px;
  padding-bottom: 20px;
+ cursor: default;
 }
 
 .quote-icon {
@@ -140,6 +145,7 @@ li {
 
 .section-email {
   background-color: #35C094;
+  cursor: default;
 }
 
 .video-gopro {
@@ -154,12 +160,14 @@ li {
 .section-blocks {
   text-align: center;
   padding: 20px 100px;
+  cursor: default;
   background: #f6f6f6;
 }
 
 .section-blocks-price {
   text-align: center;
   padding: 23px 100px;
+  cursor: default;
   background: #35C094;
 }
 
@@ -182,7 +190,7 @@ li {
 
 .section-brands {
   background-color: #f8f8f8;
-  
+  cursor: default;
 }
 
 .brand-icons svg {
@@ -197,6 +205,7 @@ li {
 .footer {
   background-color: #373737;
   padding: 20px;
+  cursor: default;
 }
 
 .footer-p {
